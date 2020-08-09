@@ -41,7 +41,8 @@ then
                       	echo "stopping ip forwarding before exitting"
 			echo 0 > /proc/sys/net/ipv4/ip_forward
 
-
+			# you can also use sniffing tools like urlsnarf and drifnet or mailsnarf by mentioning interface.
+			# For eg urlsnarf -i interface
 
 
 
